@@ -3,6 +3,8 @@ const secrets = require('./secrets.js');
 
 var T = new twit(secrets);
 
-tweet = 'hi hello';
+tweet = 'how bout a horoscope';
 
-T.post('statuses/update', {status: tweet});
+T.post('statuses/update', {status: tweet}, function(err, data, response){
+  console.log(data);
+});
