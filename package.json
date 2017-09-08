@@ -1,0 +1,26 @@
+{
+  "name": "emoji-horoscope",
+  "version": "1.0.0",
+  "description": "'scopes for yr day",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taraadiseshan/emoji-horoscope.git"
+  },
+  "keywords": [
+    "emoji",
+    "horoscope"
+  ],
+  "author": "t",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taraadiseshan/emoji-horoscope/issues"
+  },
+  "homepage": "https://github.com/taraadiseshan/emoji-horoscope#readme",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
+}
