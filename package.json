@@ -4,7 +4,8 @@
   "description": "'scopes for yr day",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "pretest": "eslint lib data test *.js",
+    "test": "nyc tape test/*.test.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,13 @@
   "homepage": "https://github.com/taraadiseshan/emoji-horoscope#readme",
   "dependencies": {
     "twit": "^2.2.9"
+  },
+  "devDependencies": {
+    "node-emoji": "^1.8.1",
+    "prettyjson": "^1.2.1",
+    "eslint": "^4.6.1",
+    "nyc": "^11.2.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
   }
 }
